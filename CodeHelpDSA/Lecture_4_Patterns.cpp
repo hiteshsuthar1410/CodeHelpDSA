@@ -24,6 +24,7 @@ void pattern18();
 void pattern19();
 void pattern20();
 
+/*
 int main() {
     //    pattern1();
     //    pattern2();
@@ -49,7 +50,7 @@ int main() {
     pattern20();
     cout<<endl;
     return 0;
-}
+}*/
 
 void pattern1() {
     int num;
