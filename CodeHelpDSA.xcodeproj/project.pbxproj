@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		38270D462AFD42E300789647 /* Lecture_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38270D442AFD42E300789647 /* Lecture_5.cpp */; };
 		38335D9E2AF5582100270C56 /* Lecture_4_Patterns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38335D9D2AF5582100270C56 /* Lecture_4_Patterns.cpp */; };
+		3837FB662B02029B0094453B /* FibonacciSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3837FB652B02029B0094453B /* FibonacciSeries.cpp */; };
+		3837FB6A2B020C020094453B /* PrimeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3837FB682B020C020094453B /* PrimeNumber.cpp */; };
+		388716F22B1B3CD400FF5C0C /* DecimalToBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388716F02B1B3CD400FF5C0C /* DecimalToBinary.cpp */; };
+		388716F52B1B3CF500FF5C0C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388716F32B1B3CF500FF5C0C /* main.cpp */; };
+		388716F72B1B4DBD00FF5C0C /* BinaryToDecimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388716F62B1B4DBD00FF5C0C /* BinaryToDecimal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +32,14 @@
 		38270D442AFD42E300789647 /* Lecture_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lecture_5.cpp; sourceTree = "<group>"; };
 		38335D9A2AF5582100270C56 /* CodeHelpDSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeHelpDSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		38335D9D2AF5582100270C56 /* Lecture_4_Patterns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lecture_4_Patterns.cpp; sourceTree = "<group>"; };
+		3837FB652B02029B0094453B /* FibonacciSeries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciSeries.cpp; sourceTree = "<group>"; };
+		3837FB682B020C020094453B /* PrimeNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrimeNumber.cpp; sourceTree = "<group>"; };
+		3837FB692B020C020094453B /* PrimeNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrimeNumber.hpp; sourceTree = "<group>"; };
+		388716F02B1B3CD400FF5C0C /* DecimalToBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DecimalToBinary.cpp; sourceTree = "<group>"; };
+		388716F12B1B3CD400FF5C0C /* DecimalToBinary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DecimalToBinary.hpp; sourceTree = "<group>"; };
+		388716F32B1B3CF500FF5C0C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		388716F42B1B3CF500FF5C0C /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		388716F62B1B4DBD00FF5C0C /* BinaryToDecimal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryToDecimal.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +72,26 @@
 		38335D9C2AF5582100270C56 /* CodeHelpDSA */ = {
 			isa = PBXGroup;
 			children = (
+				388716F32B1B3CF500FF5C0C /* main.cpp */,
 				38335D9D2AF5582100270C56 /* Lecture_4_Patterns.cpp */,
 				38270D442AFD42E300789647 /* Lecture_5.cpp */,
+				3837FB672B020BD40094453B /* Questions */,
+				388716F42B1B3CF500FF5C0C /* main.hpp */,
 			);
 			path = CodeHelpDSA;
+			sourceTree = "<group>";
+		};
+		3837FB672B020BD40094453B /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				3837FB652B02029B0094453B /* FibonacciSeries.cpp */,
+				3837FB682B020C020094453B /* PrimeNumber.cpp */,
+				3837FB692B020C020094453B /* PrimeNumber.hpp */,
+				388716F02B1B3CD400FF5C0C /* DecimalToBinary.cpp */,
+				388716F12B1B3CD400FF5C0C /* DecimalToBinary.hpp */,
+				388716F62B1B4DBD00FF5C0C /* BinaryToDecimal.cpp */,
+			);
+			path = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				38270D462AFD42E300789647 /* Lecture_5.cpp in Sources */,
+				3837FB662B02029B0094453B /* FibonacciSeries.cpp in Sources */,
+				388716F52B1B3CF500FF5C0C /* main.cpp in Sources */,
+				388716F72B1B4DBD00FF5C0C /* BinaryToDecimal.cpp in Sources */,
+				3837FB6A2B020C020094453B /* PrimeNumber.cpp in Sources */,
 				38335D9E2AF5582100270C56 /* Lecture_4_Patterns.cpp in Sources */,
+				388716F22B1B3CD400FF5C0C /* DecimalToBinary.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
