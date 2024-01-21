@@ -14,6 +14,8 @@
 		388716F22B1B3CD400FF5C0C /* DecimalToBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388716F02B1B3CD400FF5C0C /* DecimalToBinary.cpp */; };
 		388716F52B1B3CF500FF5C0C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388716F32B1B3CF500FF5C0C /* main.cpp */; };
 		388716F72B1B4DBD00FF5C0C /* BinaryToDecimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388716F62B1B4DBD00FF5C0C /* BinaryToDecimal.cpp */; };
+		38A005B52B5D69D20024788B /* Lecture9_ Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38A005B32B5D69D20024788B /* Lecture9_ Arrays.cpp */; };
+		38A005B82B5D7D9D0024788B /* MinMax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38A005B62B5D7D9D0024788B /* MinMax.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,10 @@
 		388716F32B1B3CF500FF5C0C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		388716F42B1B3CF500FF5C0C /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
 		388716F62B1B4DBD00FF5C0C /* BinaryToDecimal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryToDecimal.cpp; sourceTree = "<group>"; };
+		38A005B32B5D69D20024788B /* Lecture9_ Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Lecture9_ Arrays.cpp"; sourceTree = "<group>"; };
+		38A005B42B5D69D20024788B /* Lecture9_ Arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Lecture9_ Arrays.hpp"; sourceTree = "<group>"; };
+		38A005B62B5D7D9D0024788B /* MinMax.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinMax.cpp; sourceTree = "<group>"; };
+		38A005B72B5D7D9D0024788B /* MinMax.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinMax.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 				38270D442AFD42E300789647 /* Lecture_5.cpp */,
 				3837FB672B020BD40094453B /* Questions */,
 				388716F42B1B3CF500FF5C0C /* main.hpp */,
+				38A005B32B5D69D20024788B /* Lecture9_ Arrays.cpp */,
+				38A005B42B5D69D20024788B /* Lecture9_ Arrays.hpp */,
 			);
 			path = CodeHelpDSA;
 			sourceTree = "<group>";
@@ -90,6 +98,8 @@
 				388716F02B1B3CD400FF5C0C /* DecimalToBinary.cpp */,
 				388716F12B1B3CD400FF5C0C /* DecimalToBinary.hpp */,
 				388716F62B1B4DBD00FF5C0C /* BinaryToDecimal.cpp */,
+				38A005B62B5D7D9D0024788B /* MinMax.cpp */,
+				38A005B72B5D7D9D0024788B /* MinMax.hpp */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -153,7 +163,9 @@
 			files = (
 				38270D462AFD42E300789647 /* Lecture_5.cpp in Sources */,
 				3837FB662B02029B0094453B /* FibonacciSeries.cpp in Sources */,
+				38A005B82B5D7D9D0024788B /* MinMax.cpp in Sources */,
 				388716F52B1B3CF500FF5C0C /* main.cpp in Sources */,
+				38A005B52B5D69D20024788B /* Lecture9_ Arrays.cpp in Sources */,
 				388716F72B1B4DBD00FF5C0C /* BinaryToDecimal.cpp in Sources */,
 				3837FB6A2B020C020094453B /* PrimeNumber.cpp in Sources */,
 				38335D9E2AF5582100270C56 /* Lecture_4_Patterns.cpp in Sources */,
